@@ -7,7 +7,7 @@ pipeline {
                 git 'https://github.com/BoDorsaf/MavJen.git'
 
                 // To run Maven on a Windows agent, use
-                bat "mvn -version"
+                sh "mvn -version"
 		            }
 
            
